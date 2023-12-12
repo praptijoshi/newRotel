@@ -1,0 +1,98 @@
+/*Header Style*/
+header {
+    background-color: #333;/*Dark background color*/
+    padding: 10px;/*Adds 10 pixels of space inside the header*/
+}
+/*Navigation Styles*/
+nav ul {
+    list-style-type: none;/*Removes the sefault list styling*/
+    margin: 0;/*Removes sefault margin for the unordered list*/
+    padding: 0;/*Removes default padding for the unordered list*/
+}
+
+nav li {
+    display: inline;/*Arranges list items horizontally*/
+    margin-right: 20px;/*Adds 20 pixels of space to the right of each list items*/
+}
+
+nav a {
+    color: #fff; /* Sets the text color of navigation links to white */
+    text-decoration: none; /* Removes underlines from navigation links */
+    font-weight: bold;/*Makes the navigation link text bold*/
+    font-size: 18px;/*Sets the font size of navigation links to 18 pixels*/
+}
+
+nav a:hover {
+    text-decoration: underline;/*Underlines navigation links on hover*/
+}
+
+
+.about-product {
+    text-align: center;/*Centers text in the 'about-product' section*/
+    padding: 60px;/*Adds 60 pixels of space inside the 'about-product' section*/
+    background-color: #f8f8f8; /* Light gray background */
+    max-width: 800px;/*Limits the maximum width*/
+    margin: 0 auto;/* Centers the 'about-product' section horizontally on the page */
+}
+
+
+.about-product h1 {
+    font-size: 2.8em;/*Sets a larger font size for the heading*/
+    color: #333;/*Sets a dark gray color for the heading text*/
+    margin-bottom: 30px;/*Adds 30 pixels of space at the bottom of the heading*/
+}
+
+.product-details {
+    text-align: left;/*Left-aligns text*/
+}
+
+.product-details img {
+    width: 100%;/*Makes product images take up 100% of their container width*/
+    border-radius: 10px;/*Rounds the corners of product images*/
+    margin-bottom: 20px;/*Adds 20 pixels of space at the bottom of product images*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/*Adds a subtle box shadow to product images*/
+}
+
+.product-description {
+    font-size: 1.4em;/*sets a font size of 1.4em for the product description*/
+    color: #555;/*sets a daek gray color for the product description text*/
+    margin-bottom: 20px;/* Adds 20 pixels of space at the bottom of the product description */
+    line-height: 1.6;/* Sets the line height of the product description to 1.6 */
+}
+
+.product-highlights {
+    list-style-type: none; /* Removes default list styling for product highlights */
+    padding: 0;/* Removes default padding for the unordered list of product highlights */
+    margin-bottom: 30px;/* Adds 30 pixels of space at the bottom of the list of product highlights */
+}
+
+.product-highlights li {
+    font-size: 1.3em;/* Sets a font size of 1.3em for each item in the list of product highlights */
+    color: #2e3d48; /* Deep blue */
+    margin-bottom: 12px;/* Adds 12 pixels of space at the bottom of each item in the list of product highlights */
+}
+
+.product-cta {
+    font-size: 1.4em;/* Sets a font size of 1.4em for the call-to-action text */
+    color: #555;/*dark grey color*/
+    margin-bottom: 30px;/* Adds 30 pixels of space at the bottom of the call-to-action text */
+    line-height: 1.6;/* Sets the line height of the call-to-action text to 1.6 */
+}
+footer {
+    background-color: #333;/* Dark background color for the footer */
+    color: #fff; /* Sets white text color for the content inside the footer */
+    padding: 10px;/* Adds 10 pixels of space inside the footer */
+    display: flex;/* Arranges the content inside the footer as a flex container */
+    justify-content: space-between;/* Distributes space between the content inside the footer */
+}
+
+.contact-info a {
+    color: #fff;/* Sets white color for links in the contact information */
+    text-decoration: none; /* Removes underlines from links in the contact information */
+}
+
+.social-media a {
+    color: #fff;/* Sets white color for links in the social media section */
+    text-decoration: none;/* Removes underlines from links in the social media section */
+    margin-right: 10px;/* Adds 10 pixels of space to the right of each social media link */
+}

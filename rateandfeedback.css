@@ -1,0 +1,101 @@
+
+header {
+    background-color: #333;/* Dark background color */
+    padding: 10px;/* Padding around the header content */
+}
+
+nav ul {
+    list-style-type: none;/* Remove default list styling */
+    margin: 0;/* Remove default margin */
+    padding: 0;/* Remove default padding */
+}
+
+nav li {
+    display: inline;/* Display list items inline */
+    margin-right: 20px;/* Margin between list items */
+}
+
+nav a {
+    color: #fff;/* Text color */
+    text-decoration: none;/* Remove underlines from links */
+    font-weight: bold;/* Bold font */
+    font-size: 18px;/* Font size */
+}
+
+nav a:hover {
+    text-decoration: underline;/* Underline on hover */
+}
+.feedback-form {
+    text-align: center;/* Center-align content */
+    padding: 60px;/* Padding around the form */
+    background-color: #f8f8f8; /* Light gray background */
+    max-width: 800px;/* Maximum width of the form */
+    margin: 0 auto;/* Center the form horizontally */
+}
+
+.feedback-form h1 {
+    font-size: 2.8em;/* Large font size for heading */
+    color: #333;/* Dark text color */
+    margin-bottom: 30px;/* Bottom margin */
+}
+
+.feedback-form p {
+    font-size: 1.2em;/* Medium font size for paragraphs */
+    color: #555;/* Text color */
+    margin-bottom: 30px;/* Bottom margin */
+}
+
+form {
+    display: flex;/* Display form elements in a flex container */
+    flex-direction: column;/* Arrange elements vertically */
+    align-items: center;/* Center-align form elements */
+}
+
+label {
+    font-size: 1.2em; /* Font size for labels */
+    color: #333;/* Text color */
+    margin-bottom: 8px;/* Bottom margin */
+}
+
+select, textarea {
+    width: 100%;/* Full width */
+    padding: 10px;/* Padding */
+    margin-bottom: 20px;/* Bottom margin */
+    border: 1px solid #ccc;/* Border styling */
+    border-radius: 5px;/* Border radius */
+    font-size: 1em;/* Font size */
+}
+
+button {
+    padding: 15px 30px;/* Padding for button */
+    background-color: #333;/* Dark background color */
+    color: #fff;/* Text color */
+    border: none;/* No border */
+    border-radius: 5px;/* Border radius */
+    cursor: pointer;/* Cursor style */
+    font-size: 1.2em;/* Font size */
+    transition: background-color 0.3s ease;/* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+footer {
+    background-color: #333;/* Dark background color */
+    color: #fff;/* Text color */
+    padding: 10px;/* Padding around the footer content */
+    display: flex;/* Display footer content in a flex container */
+    justify-content: space-between;/* Space evenly between content */
+}
+
+.contact-info a {
+    color: #fff;/* Text color */
+    text-decoration: none;/* Remove underlines from links */
+}
+
+.social-media a {
+    color: #fff;/* Text color */
+    text-decoration: none;/* Remove underlines from links */
+    margin-right: 10px;/* Right margin between links */
+}

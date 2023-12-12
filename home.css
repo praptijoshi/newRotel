@@ -1,0 +1,130 @@
+body {
+    font-family: 'Times New Roman', serif;/*sets the default font for the entirw webpage*/
+    margin: 0;/*Removes default margin*/
+    padding: 0;/*Removes default padding*/
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+header {
+    background-color: #333;/*Dark background color*/
+    padding: 10px;/*Padding inside the header*/
+}
+
+nav ul {
+    list-style-type: none;/*Removes default list styling from the navigation list*/
+    margin: 0;/*Removes default margin for the unordered list*/
+    padding: 0;/*Removing default padding for the unordered list*/
+}
+
+nav li {
+    display: inline;/*Makes the navigation items appear side by side*/
+    margin-right: 20px;/* Adds 20 pixels of space to the right of each navigation item */
+}
+
+nav a {
+    color: #fff;/*Sets the text color of navigation links to white*/
+    text-decoration: none;/*Removes underlines from navigation links*/
+    font-weight: bold;/*Makes the navigation link text bold*/
+    font-size: 18px;/*Sets the font size of navigation links to 18 pixels*/
+}
+
+nav a:hover {
+    text-decoration: underline;/*Underlines navigation links on hover*/
+}
+
+.hero {
+    position: relative;/* Allows positioning of child elements relative to this container */
+    height: 400px;/* Sets the height of the hero section */
+    overflow: hidden;/* Hides any content overflowing the hero section */
+}
+
+.hero img {
+    width: 100%;/* Makes the hero image take up the full width of its container */
+    height: auto;/* Maintains the image's aspect ratio */
+    object-fit: cover;/* Scales the image to cover the entire container while maintaining its aspect ratio */
+    filter: grayscale(100%); /* Apply grayscale effect to the image */
+}
+
+.hero h1 {
+    position: absolute;/* Allows absolute positioning within the hero container */
+    top: 50%;/* Positions the text at the vertical center of the hero container */
+    left: 50%;/* Positions the text at the horizontal center of the hero container */
+    transform: translate(-50%, -50%);/* Centers the text precisely */
+    color: #fff;/* Sets the text color to white */
+    text-align: center;/* Centers the text within its container */
+    font-size: 2.5em;/* Sets a large font size for the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add text shadow for a vintage look */
+}
+
+.introduction {
+    text-align: center;/* Centers the text in the introduction section */
+    padding: 20px;/* Adds 20 pixels of space inside the introduction section */
+}
+
+.cta-button {
+    display: inline-block;/* Makes the button a block-level element */
+    padding: 10px 20px;/* Adds padding to the button */
+    background-color: #333;/* Sets the background color of the button */
+    color: #fff;/* Sets the text color of the button to white */
+    text-decoration: none;/* Removes underlines from the button text */
+    border-radius: 5px;/* Rounds the corners of the button */
+    transition: background-color 0.3s ease; /* Adds a smooth transition effect to the background color */
+}
+
+.cta-button:hover {
+    background-color: #555;/* Darkens the background color on hover */
+}
+
+.vintage-introduction {
+    text-align: center;/* Centers the text in the vintage introduction section */
+    padding: 40px 20px;/* Adds 40 pixels of space inside the vintage introduction section */
+    background-color: #fff; /* White background for a clean look */
+    margin-top: 20px;/* Adds 20 pixels of space at the top of the vintage introduction section */
+}
+
+.vintage-ad-heading {
+    font-size: 2.5em;/* Sets a large font size for the vintage ad heading */
+    color: #333;/* Sets a dark gray color for the vintage ad heading text */
+    margin-bottom: 10px;/* Adds 10 pixels of space at the bottom of the vintage ad heading */
+}
+
+
+.vintage-ad-paragraph {
+    font-size: 1.2em;/* Sets a moderately large font size for the vintage ad paragraph */
+    color: #555;/* Sets a dark gray color for the vintage ad paragraph text */
+    margin-bottom: 20px;/* Adds 20 pixels of space at the bottom of the vintage ad paragraph */
+
+}
+
+footer {
+    background-color: #333;/* Dark background color for the footer */
+    color: #fff;/* Sets white text color for the content inside the footer */
+    padding: 10px;/* Adds 10 pixels of space inside the footer */
+    display: flex;/* Organizes the content inside the footer using a flexible layout */
+    justify-content: space-between;/* Distributes space evenly between the content inside the footer */
+}
+
+.contact-info a {
+    color: #fff; /* Sets white color for links in the contact information */
+    text-decoration: none;/* Removes underlines from links in the contact information */
+}
+
+.social-media a {
+    color: #fff;/* Sets white color for links in the social media section */
+    text-decoration: none;/* Removes underlines from links in the social media section */
+    margin-right: 10px;/* Adds 10 pixels of space to the right of each social media link */
+}
+.image-section {
+    text-align: center;/* Centers the text in the image section */
+}
+
+.image-section img {
+    max-width: 25%;/* Sets the maximum width of images in the image section to 25% of their container */
+    height: 25%;/* Sets the height of images in the image section to 25% of their container */
+    filter: grayscale(100%); /* Applies a grayscale effect to images in the image section */
+    transition: filter 0.5s ease;/* Adds a smooth transition effect to the grayscale filter */
+}
+
+.image-section img:hover {
+    filter: grayscale(0%); /* Removes the grayscale effect on images in the image section on hover */
+}

@@ -1,0 +1,87 @@
+/* Existing styles remain unchanged */
+header {
+    background-color: #333;/*Dark background color for the header*/
+    padding: 10px;/*Paddimg inside the header*/
+}
+
+nav ul {
+    list-style-type: none;/*Removes default lists styling form the navigation lists*/
+    margin: 0;/*Removes default margin*/
+    padding: 0;/*Removes default padding*/
+}
+
+nav li {
+    display: inline;/*Makes the navigation items appear side by side*/
+    margin-right: 20px;/* Adds 20 pixels of space to the right of each navigation item */
+}
+
+nav a {
+    color: #fff;/*Sets the text color of navigation links to white*/
+    text-decoration: none;/*Removes underlines*/
+    font-weight: bold;/*Makes the navigation link text bold*/
+    font-size: 18px;/*Sets the font size*/
+}
+
+nav a:hover {
+    text-decoration: underline;/*underline navigation links on hover*/
+}
+.corporate-info {
+    text-align: center;/*centers the text*/
+    padding: 40px;/* Adds 40 pixels of space inside the corporate info section */
+    background-color: #f8f8f8; /* Light gray background */
+    max-width: 800px;/* Limits the maximum width of the corporate info section */
+    margin: 0 auto;/* Centers the corporate info section horizontally on the page */
+}
+
+.corporate-info h1 {
+    font-size: 2.8em;/* Sets a large font size for the heading in the corporate info section */
+    color: #333;/* Sets a dark gray color for the heading text */
+    margin-bottom: 20px;/* Adds 20 pixels of space at the bottom of the heading */
+}
+
+.corporate-info p {
+    font-size: 1.2em;/* Sets a moderately large font size for the paragraphs in the corporate info section */
+    color: #555;/* Sets a dark gray color for the text in the corporate info section */
+    margin-bottom: 30px; /* Adds 30 pixels of space at the bottom of the paragraphs */
+}
+
+.company-details p {
+    margin-bottom: 15px;/* Adds 15 pixels of space at the bottom of each paragraph in the company details section */
+}
+
+.mission-vision {
+    text-align: left;/* Left-aligns the text in the mission and vision section */
+}
+
+.mission-vision h2 {
+    font-size: 2em;/* Sets a large font size for the subheading in the mission and vision section */
+    color: #333; /* Sets a dark gray color for the subheading text */
+    margin-top: 30px;/* Adds 30 pixels of space at the top of the subheading */
+}
+
+.mission-vision p {
+    font-size: 1.2em; /* Sets a moderately large font size for the paragraphs in the mission and vision section */
+    color: #555; /* Sets a dark gray color for the text in the mission and vision section */
+    margin-bottom: 30px;/* Adds 30 pixels of space at the bottom of the paragraphs */
+}
+
+footer {
+    background-color: #333;/* Dark background color for the footer */
+    color: #fff; /* Sets white text color for the content inside the footer */
+    padding: 10px;/* Adds 10 pixels of space inside the footer */
+    display: flex;/* Organizes the content inside the footer using a flexible layout */
+    justify-content: space-between;/* Distributes space evenly between the content inside the footer */
+}
+
+.contact-info a {
+    color: #fff;/* Sets white color for links in the contact information */
+    text-decoration: none;/* Removes underlines from links in the contact information */
+}
+
+.social-media a {
+    color: #fff;/* Sets white color for links in the social media section */
+    text-decoration: none;/* Removes underlines from links in the social media section */
+    margin-right: 10px;/* Adds 10 pixels of space to the right of each social media link */
+}
+
+
